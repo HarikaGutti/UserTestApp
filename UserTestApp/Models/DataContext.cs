@@ -20,5 +20,8 @@ namespace UserTestApp.Models
 
         public DbSet<PageContent> PageContent { get; set; }
 
+        public DbSet<PageFile> PageFile { get; set; }
+
+
     }
 }

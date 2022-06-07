@@ -2,14 +2,13 @@
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Net.Http;
-using System.Threading.Tasks;
 using System.Net.Http.Formatting;
-using Newtonsoft.Json;
 using System.Net.Http.Json;
+using System.Threading.Tasks;
+using UserTestApp.Models;
 
-namespace UserTestApp.Models
+namespace UserTestApp.Services
 {
     public class CloudService : ICloudService
     {

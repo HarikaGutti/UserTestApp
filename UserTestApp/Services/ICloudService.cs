@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace UserTestApp.Models
+namespace UserTestApp.Services
 {
     public interface ICloudService
     {

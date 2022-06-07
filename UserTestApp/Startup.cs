@@ -9,6 +9,7 @@ using Microsoft.OpenApi.Models;
 using Serilog;
 using System.Net.Http;
 using UserTestApp.Models;
+using UserTestApp.Services;
 
 namespace UserTestApp
 {
